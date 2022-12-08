@@ -24,7 +24,7 @@ public class PlayerInventory : MonoBehaviour
     }
 
     [SerializeField]
-    List inventory = new List<item>();
+    List<item> inventory = new List<item>();
 
     [SerializeField]
     float carryLimit,
